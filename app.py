@@ -10,5 +10,9 @@ def home():
 def about():
     return render_template("about.html")
 
+@app.route("/new")
+def about():
+    return render_template("new_feature.html")
+
 if __name__ == "__main__":
     app.run(debug=True)
